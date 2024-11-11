@@ -16,20 +16,23 @@ class PostSeeder extends Seeder
         Post::create([
 
             'title' => '1 title',
-            'content' => '1 content',
+            'description' => '1 description',
             'author' => '1 author',
+            'date' => now(),
         ]);
 
         Post::create([
             'title' => '2 title',
-            'content' => '2 content',
+            'description' => '2 description',
             'author' => '2 author',
+            'date' => now(),
         ]);
 
         Post::create([
             'title' => '3 title',
-            'content' => '3 content',
+            'description' => '3 description',
             'author' => '3 author',
+            'date' => now(),
         ]);
     }
 }
