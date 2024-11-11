@@ -38,7 +38,6 @@ class PostController extends Controller
     {
         $posts = Post::all();
         return view('pages.posts.show', compact('posts'));
-        $posts = Post::findOrFail($id);
     }
 
     /**
