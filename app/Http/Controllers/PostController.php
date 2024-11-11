@@ -36,7 +36,7 @@ class PostController extends Controller
      */
     public function show(string $id)
     {
-        posts = Post::all();
+        $posts = Post::all();
         return view('pages.posts.show', compact('posts'));
         $posts = Post::findOrFail($id);
     }
