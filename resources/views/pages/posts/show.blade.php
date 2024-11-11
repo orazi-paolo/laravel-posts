@@ -1,5 +1,5 @@
 @extends("layouts.app")
-
+@section("page-title", show);
 @section("page-title", "Show")
 
 @section("main-content")
